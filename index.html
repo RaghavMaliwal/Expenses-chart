@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="head">
+        <div class="content">
+          <h5>My balance</h5>
+          <h2>$921.48</h2>
+        </div>
+        <div class="logo"></div>
+      </div>
+      <div class="chart">
+        <h2>Spending- Last 7 days</h2>
+        <div class="graph">
+          <div class="mainbar">
+            <div class="values"><p id="monv"></p></div>
+            <div class="bars" id="mon"></div>
+          </div>
+          <div class="mainbar">
+            <div class="values"><p id="tuev"></p></div>
+            <div class="bars" id="tue"></div>
+          </div>
+          <div class="mainbar">
+            <div class="values" id=""><p id="wedv"></p></div>
+            <div class="bars" id="wed"></div>
+          </div>
+          <div class="mainbar">
+            <div class="values" id=""><p id="thuv"></p></div>
+            <div class="bars" id="thu"></div>
+          </div>
+          <div class="mainbar">
+            <div class="values" id=""><p id="friv"></p></div>
+            <div class="bars" id="fri"></div>
+          </div>
+          <div class="mainbar">
+            <div class="values" id=""><p id="satv"></p></div>
+            <div class="bars" id="sat"></div>
+          </div>
+          <div class="mainbar">
+            <div class="values" id=""><p id="sunv"></p></div>
+            <div class="bars" id="sun"></div>
+          </div>
+        </div>
+        <div class="days">
+          <div class="day"><h6>mon</h6></div>
+          <div class="day"><h6>tue</h6></div>
+          <div class="day"><h6>wed</h6></div>
+          <div class="day"><h6>thu</h6></div>
+          <div class="day"><h6>fri</h6></div>
+          <div class="day"><h6>sat</h6></div>
+          <div class="day"><h6>sun</h6></div>
+        </div>
+
+        <div class="tail">
+          <div class="curr">
+            <h5>Total this month</h5>
+            <h1>$478.33</h1>
+          </div>
+          <div class="prev">
+            <h4>+2.4%</h4>
+            <h5>from last month</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
